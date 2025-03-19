@@ -19,8 +19,8 @@ It allows us to inspect the request parameters and check if the response is succ
 This breakpoint ensures that we correctly extract and display images from the API response.  
 
 **Before Stepping Through:**  
-- We check if the `photos` array is populated.  
-- We verify that `slice(0, 3)` correctly selects three photos.  
+- We check if the 'photos' array is populated.  
+- We verify that 'slice(0, 3)'correctly selects three photos.  
 
 **After Stepping Through:**  
 - Three image objects are created dynamically.  
